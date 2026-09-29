@@ -33,7 +33,7 @@ A7 - A11 (A10X is still testing).
 
 2. Install Git Bash with the default configs. (DO NOT CHANGE IT UNLESS YOU KNOW WHAT YOU'RE DOING)
 
-You can simply double click the SSHRD_Helper.sh to do the thing, or just simply:
+You can simply double click the SSHRD_Helper.sh to do the thing, or just:
 
 3. Open the SSHRD_Script_Windows directory, right click and you should see "Open Git Bash here".
 
@@ -51,7 +51,7 @@ gaster requires libusbK while pwning, if you didn't install libusbK via Zadig, g
 To reset the driver back to USBAAPL, simply open Device Manager in Windows, and search for a device named "Apple Mobile Device (DFU Mode)", click "Update Driver", then click "Search for driver automatically", then click continue, the driver will be set back to USBAAPL. However if it didn't, you may need to boot back to normal mode, then re-enter DFU mode. 
 
 ## Install Custom Driver via Zadig
-1. Download (Zadig)[https://github.com/pbatard/libwdi/releases/download/v1.5.1/zadig-2.9.exe] here. 
+1. Download [Zadig](https://github.com/pbatard/libwdi/releases/download/v1.5.1/zadig-2.9.exe) here. 
 
 2. Open Zadig, select "Options" at the top bar, then check the "List All Devices" box.
 
@@ -62,4 +62,3 @@ To reset the driver back to USBAAPL, simply open Device Manager in Windows, and 
 5. And there you go.
 
 There are potentially some extra issues. If I found any more issues, i will push new commits. Stay tuned!
-ub.com/plooshi) for KPlooshFinder
